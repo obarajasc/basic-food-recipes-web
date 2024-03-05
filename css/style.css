@@ -1,31 +1,71 @@
+/*https://www.pinterest.com.mx/pin/897834875689092824/*/
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
 body {
-    font-family: noto-sans,system-ui,-apple-system,Segoe UI,Roboto,Helvetica,arial,sans-serif;
-    background-color: #E8E1D9;
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    background-color: #DED9D5;
+}
+
+.top-content {
+    background-color: black;
+    border-bottom: 20px solid #1B281A;
+    padding: 0 0 20px 0;
 }
 
 .title-centered {
     text-align: center;
     font-size: 32px;
+    background-color: black;
+    color: white;
+    padding: 12px;
 }
 
 .img-centered {
-    height: auto;
-    width: 400px;
+    height: 300px;
+    width: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    background-color: black;
 }
 
-h2 {
-    text-align: left;
-    font-size: 20px;
-}
-
-li,
-p {
+.recipe-list li {
+    margin: 0 auto;
     font-size: 18px;
+    color: #1B281A;
+    margin: 10px 40px;
 }
 
-a {
+
+.subtitle {
+    font-size: 20px;
+    color: #1B281A;
+    text-align: center;
+    width: 300px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #1B281A;
+    padding: 5px;
+    margin: 20px auto;
+}
+
+.recipe-description {
+    font-size: 18px;
+    color: #1B281A;
+    margin: 5px 40px;
+}
+
+.link {
     text-decoration: none;
+    font-weight: 900;
+    margin: 10px 0px;
 }
